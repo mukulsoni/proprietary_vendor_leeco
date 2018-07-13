@@ -389,21 +389,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
 
- PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     QFingerprintService \
     LetvRemoteControl \
-    UEIQuicksetSDKLeTV \
-    Ds \
-    DsUI
-
-#Dolby Digital Plus
-PRODUCT_COPY_FILES += \
-    vendor/leeco/x2/proprietary/dolby/ds1-default.xml:system/dolby/ds1-default.xml \
-    vendor/leeco/x2/proprietary/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml \
-    vendor/leeco/x2/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
-    vendor/leeco/x2/proprietary/lib/soundfx/libdseffect.so:system/lib/soundfx/libdseffect.so \
-    vendor/leeco/x2/proprietary/lib/libstagefright_soft_ddpdec.so:system/lib/libstagefright_soft_ddpdec.so \
-    vendor/leeco/x2/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
+    UEIQuicksetSDKLeTV
 
 PRODUCT_PACKAGES += \
     QFingerprintService
