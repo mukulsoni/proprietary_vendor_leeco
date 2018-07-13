@@ -396,3 +396,27 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     QFingerprintService
+
+#Dolby Atmos
+PRODUCT_PACKAGES += \
+    CustDolbySettings \
+    DolbyAtmos
+
+PRODUCT_COPY_FILES += \
+    vendor/leeco/x2/proprietary/bin/audioserver:system/bin/audioserver \
+    vendor/leeco/x2/proprietary/etc/dolby/dax-default.xml:system/etc/dolby/dax-default.xml \
+    vendor/leeco/x2/proprietary/etc/permissions/privapp-permissions-com.dolby.dax2appUI.xml:system/etc/permissions/privapp-permissions-com.dolby.dax2appUI.xml \
+    vendor/leeco/x2/proprietary/framework/dolby_dax.jar:system/framework/dolby_dax.jar \
+    vendor/leeco/x2/proprietary/vendor/lib/soundfx/libatmos.so:system/vendor/lib/soundfx/libatmos.so \
+    vendor/leeco/x2/proprietary/vendor/lib/soundfx/libswvlldp.so:system/vendor/lib/soundfx/libswvlldp.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libdlbdapstorage.so:system/vendor/lib/libdlbdapstorage.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libdlbdsservice.so:system/vendor/lib/libdlbdsservice.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libdlbmemoryservice.so:system/vendor/lib/libdlbmemoryservice.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libdlbnativeservice.so:system/vendor/lib/libdlbnativeservice.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/soundfx/libatmos.so:system/vendor/lib64/soundfx/libatmos.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/soundfx/libswvlldp.so:system/vendor/lib64/soundfx/libswvlldp.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libdlbdapstorage.so:system/vendor/lib64/libdlbdapstorage.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libdlbdsservice.so:system/vendor/lib64/libdlbdsservice.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libdlbmemoryservice.so:system/vendor/lib64/libdlbmemoryservice.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libdlbnativeservice.so:system/vendor/lib64/libdlbnativeservice.so
