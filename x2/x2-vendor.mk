@@ -419,4 +419,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libdlbdapstorage.so:system/vendor/lib64/libdlbdapstorage.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libdlbdsservice.so:system/vendor/lib64/libdlbdsservice.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libdlbmemoryservice.so:system/vendor/lib64/libdlbmemoryservice.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libdlbnativeservice.so:system/vendor/lib64/libdlbnativeservice.so
+    vendor/leeco/x2/proprietary/vendor/lib64/libdlbnativeservice.so:system/vendor/lib64/libdlbnativeservice.so \
+    vendor/leeco/x2/proprietary/lib64/libaudioflinger.so:system/lib64/libaudioflinger.so \
+    vendor/leeco/x2/proprietary/lib64/libnbaio.so:system/lib64/libnbaio.so \
+    vendor/leeco/x2/proprietary/lib64/libradio.so:system/lib64/libradio.so \
+    vendor/leeco/x2/proprietary/lib64/libradioservice.so:system/lib64/libradioservice.so \
+    vendor/leeco/x2/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+    vendor/leeco/x2/proprietary/lib/libnbaio.so:system/lib/libnbaio.so \
+    vendor/leeco/x2/proprietary/lib/libradio.so:system/lib/libradio.so \
+    vendor/leeco/x2/proprietary/lib/libradioservice.so:system/lib/libradioservice.so
